@@ -1,0 +1,43 @@
+# ============================================================
+# .gitignore — AI Financial Research System
+# ============================================================
+
+# Environment variables — NEVER commit API keys!
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Jupyter (if used for testing)
+.ipynb_checkpoints/
+*.ipynb

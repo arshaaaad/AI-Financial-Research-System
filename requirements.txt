@@ -1,0 +1,34 @@
+# AI Financial Research Multi-Agent System — Dependencies
+
+# Core LangChain
+langchain==0.3.25
+langchain-groq==0.3.2
+langchain-community==0.3.23
+langchain-core==0.3.59
+
+# Groq LLM
+groq==0.28.0
+
+# Tavily Search
+tavily-python==0.5.1
+
+# Financial Data
+yfinance==0.2.61
+
+# Visualization
+plotly==6.1.1
+kaleido==0.2.1
+
+# PDF Export
+reportlab==4.4.0
+markdown2==2.5.3
+
+# Web UI
+streamlit==1.45.1
+
+# Environment
+python-dotenv==1.1.0
+
+# Utilities
+pandas==2.2.3
+requests==2.32.3
